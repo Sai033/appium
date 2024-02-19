@@ -21,8 +21,9 @@ public static void main(String[] args) throws Exception {
      Thread.sleep(2000);
      d.findElement(By.xpath("//android.widget.EditText[@text=\"Your Email Address\" and @class=\"android.widget.EditText\"]")).sendKeys("saikrishna.jakkala@smartgig.tech");
      d.findElement(By.xpath("//android.widget.TextView[@text=\"Sign In\" and @class=\"android.widget.TextView\"]")).click();
-     
-     
+  
+   
+   
    
 }
 }
